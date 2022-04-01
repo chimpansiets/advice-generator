@@ -1,23 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 @import "../../../colors.scss";
 
-.label {
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
+@media only screen and (max-width: 768px) {
+    .label {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 800;
 
-    &__heading_s {
-        font-size: 11px;
-    }
+        &__advice {
+            position: relative;
+            top: 12%;
+            margin: 25px 25px;
+        }
 
-    &__heading_l {
-        font-size: 24px;
-    }
-
-    &__green {
-        color: $neon_green;
-    }
-
-    &__cyan {
-        color: $light_cyan;
+        &__advice_number {
+            position: relative;
+            top: 12%;
+        }
+    
+        &__heading_s {
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 3.45714px;
+        }
+    
+        &__heading_l {
+            font-size: 24px;
+        }
+    
+        &__green {
+            color: $neon_green;
+        }
+    
+        &__cyan {
+            color: $light_cyan;
+        }
+    
+        &__centered {
+            text-align: center;
+        }
     }
 }

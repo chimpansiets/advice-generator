@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Label } from './Components/Atoms/Label/LabelAtom';
+import { AdvicePage } from './Components/Pages/AdvicePage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Label type="">Hello</Label>
+    <AdvicePage></AdvicePage>
   </React.StrictMode>,
   document.getElementById('root')
 );
