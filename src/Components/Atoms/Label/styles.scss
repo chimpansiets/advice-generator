@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import "../../../colors.scss";
+
+.label {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+
+    &__heading_s {
+        font-size: 11px;
+    }
+
+    &__heading_l {
+        font-size: 24px;
+    }
+
+    &__green {
+        color: $neon_green;
+    }
+
+    &__cyan {
+        color: $light_cyan;
+    }
+}
