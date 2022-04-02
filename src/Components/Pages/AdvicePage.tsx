@@ -3,9 +3,12 @@ import "./styles.css";
 import { Background } from "../Atoms/Background/BackgroundAtom";
 import { Card } from "../Atoms/Card/CardAtom";
 import { Label } from "../Atoms/Label/LabelAtom";
+import { ImageAtom } from "../Atoms/Image/ImageAtom";
+import { Button } from "../Atoms/Button/ButtonAtom";
+import { Icon } from "../Atoms/Icon/IconAtom";
 
 import divider from "../../images/pattern-divider-mobile.svg";
-import { ImageAtom } from "../Atoms/Image/ImageAtom";
+import dice from "../../images/icon-dice.svg";
 
 export class AdvicePage extends React.Component {
     render() {
@@ -16,6 +19,9 @@ export class AdvicePage extends React.Component {
                 “It is easy to sit up and take notice, what's difficult is getting up and taking action.”
                 </Label>
                 <ImageAtom classes="divider" src={divider} />
+                <Button classes="generate_advice" onClick={() => () => {}}>
+                    <Icon classes="dice" src={dice}></Icon>
+                </Button>
             </Card>
         </Background>
     }

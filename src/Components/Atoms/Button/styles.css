@@ -1,0 +1,28 @@
+.btn {
+  padding: 0;
+  border: none;
+}
+
+.btn__generate_advice {
+  position: relative;
+  top: 30%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #53FFAA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn__generate_advice:hover {
+  -webkit-box-shadow: 0px 0px 40px #53FFAA;
+          box-shadow: 0px 0px 40px #53FFAA;
+}
+/*# sourceMappingURL=styles.css.map */
