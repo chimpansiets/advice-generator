@@ -1,35 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
-@media only screen and (max-width: 768px) {
-  .label {
-    font-family: "Manrope", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-  }
-  .label__advice {
-    position: relative;
-    top: 12%;
-    margin: 25px 25px;
-  }
-  .label__advice_number {
-    position: relative;
-    top: 12%;
-  }
-  .label__heading_s {
-    font-size: 11px;
-    line-height: 15px;
-    letter-spacing: 3.45714px;
-  }
-  .label__heading_l {
-    font-size: 24px;
-  }
-  .label__green {
-    color: #53FFAA;
-  }
-  .label__cyan {
-    color: #CEE3E9;
-  }
-  .label__centered {
-    text-align: center;
-  }
+.label {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.label__advice {
+  position: relative;
+  top: 12%;
+  margin: 25px 25px;
+}
+
+.label__advice_number {
+  position: relative;
+  top: 12%;
+}
+
+.label__heading_s {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.45714px;
+}
+
+.label__heading_l {
+  font-size: 24px;
+}
+
+.label__green {
+  color: #53FFAA;
+}
+
+.label__cyan {
+  color: #CEE3E9;
+}
+
+.label__centered {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

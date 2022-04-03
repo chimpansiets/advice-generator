@@ -4,8 +4,8 @@
 }
 
 .btn__generate_advice {
-  position: relative;
-  top: 30%;
+  position: absolute;
+  top: 91%;
   height: 60px;
   width: 60px;
   border-radius: 50%;

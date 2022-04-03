@@ -3,7 +3,7 @@ import "./styles.css";
 
 export class Background extends React.Component {
     render() {
-        return <div className="background">
+        return <div id="background">
             {this.props.children}
         </div>
     }

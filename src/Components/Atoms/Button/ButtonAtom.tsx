@@ -3,7 +3,7 @@ import "./styles.css";
 
 interface Props {
     classes?: string,
-    onClick: () => {},
+    onClick: () => void,
 }
 
 export class Button extends React.Component<Props> {
@@ -16,7 +16,7 @@ export class Button extends React.Component<Props> {
             }).join(" ");
         }
 
-        return <button className={"btn " + classes}>
+        return <button className={"btn " + classes} onClick={this.props.onClick}>
             {this.props.children}
         </button>
     }
